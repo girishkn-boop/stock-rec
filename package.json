@@ -1,0 +1,30 @@
+{
+  "name": "bx-trader-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "axios": "^1.15.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "fs-extra": "^11.3.4",
+    "node-cron": "^4.2.1",
+    "nodemailer": "^8.0.5",
+    "socket.io": "^4.8.3",
+    "technicalindicators": "^3.1.0"
+  },
+  "devDependencies": {
+    "localtunnel": "^2.0.2",
+    "ngrok": "^5.0.0-beta.2",
+    "pm2": "^6.0.14"
+  }
+}

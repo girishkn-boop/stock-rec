@@ -1,0 +1,2024 @@
+{
+  "BUG": {
+    "ticker": "BUG",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 23.30, EMA200: 30.73, BX: 5.38)",
+    "sentiment": {
+      "text": "CrowdStrike Unveils $500 Million Buyback Boost",
+      "url": "https://www.benzinga.com/markets/buybacks/26/04/51660441/crowdstrike-unveils-500-million-buyback-boost?utm_source=benzinga_taxonomy&utm_medium=rss_feed_free&utm_content=taxonomy_rss&utm_campaign=channel",
+      "publisher": "Benzinga"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "7B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T14:00:01.173Z"
+  },
+  "IGV": {
+    "ticker": "IGV",
+    "decision": "ENTRY (SHORT)",
+    "reason": "Bearish Trend (Price: 74.67, EMA200: 97.29, BX: -2.25)",
+    "sentiment": {
+      "text": "What's Going On With Oracle Stock Thursday?",
+      "url": "https://www.benzinga.com/markets/large-cap/26/04/51741208/whats-going-on-with-oracle-stock-thursday-5?utm_source=benzinga_taxonomy&utm_medium=rss_feed_free&utm_content=taxonomy_rss&utm_campaign=channel",
+      "publisher": "Benzinga"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "8B / 1S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T14:00:13.996Z"
+  },
+  "XLE": {
+    "ticker": "XLE",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 56.94, EMA200: 48.94, BX: -22.31)",
+    "sentiment": {
+      "text": "Record Household Equity Exposure Raises Passive-Investing Risks",
+      "url": "https://www.benzinga.com/markets/equities/26/04/51750693/record-household-equity-exposure-raises-passive-investing-risks?utm_source=benzinga_taxonomy&utm_medium=rss_feed_free&utm_content=taxonomy_rss&utm_campaign=channel",
+      "publisher": "Benzinga"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "9B / 4S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T14:00:26.727Z"
+  },
+  "OIH": {
+    "ticker": "OIH",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 409.78, EMA200: 309.74, BX: -2.76)",
+    "sentiment": {
+      "text": "The Mother Of All Energy Crises Is Just Beginning, IEA Warns — April Will Be 'Much Worse'",
+      "url": "https://www.benzinga.com/trading-ideas/movers/26/04/51615744/the-mother-of-all-energy-crises-is-just-beginning-iea-warns-april-will-be-much-worse?utm_source=benzinga_taxonomy&utm_medium=rss_feed_free&utm_content=taxonomy_rss&utm_campaign=channel",
+      "publisher": "Benzinga"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "7B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T14:00:39.568Z"
+  },
+  "REMX": {
+    "ticker": "REMX",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 94.50, EMA200: 71.39, BX: 5.90)",
+    "sentiment": {
+      "text": "VanEck Rare Earth and Strategic Metals ETF Is Focused on a Hot Sector, Which is Good and Bad",
+      "url": "https://www.fool.com/investing/2026/04/06/vaneck-rare-earth-and-strategic-metals-etf-is-focu/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "10B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T14:00:52.279Z"
+  },
+  "COPX": {
+    "ticker": "COPX",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 83.52, EMA200: 65.22, BX: 10.43)",
+    "sentiment": {
+      "text": "Copper Miners ETF Is Showing Why You Need to Tread with Caution",
+      "url": "https://www.fool.com/investing/2026/04/05/copper-miners-etf-is-showing-why-you-need-to-tread/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "17B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T14:01:05.263Z"
+  },
+  "XME": {
+    "ticker": "XME",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 113.56, EMA200: 95.93, BX: 14.47)",
+    "sentiment": {
+      "text": "Why Are Coeur Mining Shares Trading Higher On Wednesday?",
+      "url": "https://www.benzinga.com/markets/large-cap/26/03/51458169/why-are-coeur-mining-shares-trading-higher-on-wednesday?utm_source=benzinga_taxonomy&utm_medium=rss_feed_free&utm_content=taxonomy_rss&utm_campaign=channel",
+      "publisher": "Benzinga"
+    },
+    "stSentiment": {
+      "score": "Bearish",
+      "details": "5B / 8S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T14:01:18.239Z"
+  },
+  "XLB": {
+    "ticker": "XLB",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 51.96, EMA200: 46.96, BX: 13.61)",
+    "sentiment": {
+      "text": "What's Going On With DuPont Stock Thursday?",
+      "url": "https://www.benzinga.com/trading-ideas/movers/26/04/51726800/whats-going-on-with-dupont-stock-thursday?utm_source=benzinga_taxonomy&utm_medium=rss_feed_free&utm_content=taxonomy_rss&utm_campaign=channel",
+      "publisher": "Benzinga"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "2B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T14:01:32.018Z"
+  },
+  "XLI": {
+    "ticker": "XLI",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 171.52, EMA200: 157.31, BX: 5.77)",
+    "sentiment": {
+      "text": "GE Aerospace, Palantir Double Down On AI To Keep US Warplanes Mission-Ready",
+      "url": "https://www.benzinga.com/markets/large-cap/26/03/51210037/ge-aerospace-palantir-double-down-on-ai-to-keep-us-warplanes-mission-ready?utm_source=benzinga_taxonomy&utm_medium=rss_feed_free&utm_content=taxonomy_rss&utm_campaign=channel",
+      "publisher": "Benzinga"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "3B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T14:01:44.683Z"
+  },
+  "CVX": {
+    "ticker": "CVX",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 188.55, EMA200: 167.00, BX: -23.59)",
+    "sentiment": {
+      "text": "What's Going On With Chevron Stock Monday?",
+      "url": "https://www.benzinga.com/trading-ideas/movers/26/04/51777446/whats-going-on-with-chevron-stock-monday?utm_source=benzinga_taxonomy&utm_medium=rss_feed_free&utm_content=taxonomy_rss&utm_campaign=channel",
+      "publisher": "Benzinga"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "12B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T14:01:57.321Z"
+  },
+  "COST": {
+    "ticker": "COST",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 998.47, EMA200: 968.20, BX: 9.60)",
+    "sentiment": {
+      "text": "Costco Raised Membership Fees for the First Time in 7 Years. Here's What Investors Learned From It.",
+      "url": "https://www.fool.com/investing/2026/04/12/costco-raised-membership-fees-for-the-first-time-i/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "12B / 1S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T14:02:40.109Z"
+  },
+  "VST": {
+    "ticker": "VST",
+    "decision": "ENTRY (SHORT)",
+    "reason": "Bearish Trend (Price: 154.73, EMA200: 170.64, BX: -3.81)",
+    "sentiment": {
+      "text": "Oil, Geopolitics, and Growth: 3 Energy Stocks Worth Holding for 10 Years",
+      "url": "https://www.fool.com/investing/2026/04/08/oil-geopolitics-and-growth-x-energy-stocks-worth-h/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "3B / 1S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T14:02:53.057Z"
+  },
+  "MU": {
+    "ticker": "MU",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 420.59, EMA200: 262.88, BX: -5.59)",
+    "sentiment": {
+      "text": "Should You Buy the Vanguard Information Technology ETF During the Nasdaq Correction? History Offers a Clear Answer",
+      "url": "https://www.fool.com/investing/2026/04/12/you-buy-vanguard-information-technology-etf-nasdaq/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "7B / 3S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T14:03:05.845Z"
+  },
+  "TQQQ": {
+    "ticker": "TQQQ",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 49.17, EMA200: 46.29, BX: 10.69)",
+    "sentiment": {
+      "text": "Could Investing $10,000 in TQQQ Make You a Millionaire?",
+      "url": "https://www.fool.com/investing/2026/04/03/could-investing-10000-in-tqqq-make-you-millionaire/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bearish",
+      "details": "2B / 5S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T14:03:18.544Z"
+  },
+  "SOXL": {
+    "ticker": "SOXL",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 76.39, EMA200: 42.34, BX: 15.21)",
+    "sentiment": {
+      "text": "Better AI Tech ETF: ProShares' QLD vs. Direxion's SOXL",
+      "url": "https://www.fool.com/coverage/etfs/2026/02/03/better-ai-tech-etf-proshares-qld-vs-direxion-s-soxl/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bearish",
+      "details": "7B / 9S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T14:03:50.520Z"
+  },
+  "IBIT": {
+    "ticker": "IBIT",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 41.56, EMA200: 51.49, BX: 15.48)",
+    "sentiment": {
+      "text": "What's the Difference Between the FBTC and IBIT Bitcoin ETFs?",
+      "url": "https://www.fool.com/coverage/etfs/2026/04/13/what-s-the-difference-between-the-fbtc-and-ibit-bitcoin-etfs/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "11B / 2S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T14:04:03.383Z"
+  },
+  "ETHA": {
+    "ticker": "ETHA",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 17.05, EMA200: 21.19, BX: 19.67)",
+    "sentiment": {
+      "text": "This Fund Dumped a $23 Million Ether ETF Stake Last Quarter but Held Onto Other Crypto Positions",
+      "url": "https://www.fool.com/coverage/filings/2026/03/11/this-fund-dumped-a-usd23-million-ether-etf-stake-last-quarter-but-held-onto-other-crypto-positions/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "3B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T14:04:16.207Z"
+  },
+  "XLU": {
+    "ticker": "XLU",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 46.96, EMA200: 43.78, BX: -2.36)",
+    "sentiment": {
+      "text": "How to Profit and Grab Big Dividends as Activists Shake Up CEFs",
+      "url": "https://www.investing.com/analysis/how-to-profit-and-grab-big-dividends-as-activists-shake-up-cefs-200677498",
+      "publisher": "Investing.com"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "10B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T14:04:29.075Z"
+  },
+  "TSM": {
+    "ticker": "TSM",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 370.60, EMA200: 291.21, BX: 7.91)",
+    "sentiment": {
+      "text": "Earnings Volatility Watch: This Stock Could Move 30% In A Single Day This Week",
+      "url": "https://www.benzinga.com/markets/equities/26/04/51777218/earnings-volatility-watch-options-implied-moves-april-2026?utm_source=benzinga_taxonomy&utm_medium=rss_feed_free&utm_content=taxonomy_rss&utm_campaign=channel",
+      "publisher": "Benzinga"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "8B / 1S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T14:04:41.756Z"
+  },
+  "GOOG": {
+    "ticker": "GOOG",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 315.72, EMA200: 262.21, BX: 13.29)",
+    "sentiment": {
+      "text": "Prediction: Amazon Will Beat The Market in The Next 10 Years -- Here's Why",
+      "url": "https://www.fool.com/investing/2026/04/13/prediction-amazon-will-beat-the-market-in-the-next/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "6B / 3S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T14:04:54.431Z"
+  },
+  "META": {
+    "ticker": "META",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 629.86, EMA200: 659.43, BX: 3.30)",
+    "sentiment": {
+      "text": "Prediction: Amazon Will Beat The Market in The Next 10 Years -- Here's Why",
+      "url": "https://www.fool.com/investing/2026/04/13/prediction-amazon-will-beat-the-market-in-the-next/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "9B / 1S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T14:05:07.574Z"
+  },
+  "AVGO": {
+    "ticker": "AVGO",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 371.55, EMA200: 312.75, BX: 15.19)",
+    "sentiment": {
+      "text": "The Only Artificial Intelligence (AI) Stock in the \"Magnificent Seven\" That's Worth Buying After the Correction",
+      "url": "https://www.fool.com/investing/2026/04/12/the-only-artificial-intelligence-ai-stock-in-the-m/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Neutral",
+      "details": "5B / 5S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T14:05:20.323Z"
+  },
+  "NVDA": {
+    "ticker": "NVDA",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 188.63, EMA200: 172.71, BX: 8.83)",
+    "sentiment": {
+      "text": "Prediction: Amazon Will Beat The Market in The Next 10 Years -- Here's Why",
+      "url": "https://www.fool.com/investing/2026/04/13/prediction-amazon-will-beat-the-market-in-the-next/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "19B / 1S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T14:05:32.950Z"
+  },
+  "MSFT": {
+    "ticker": "MSFT",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 370.87, EMA200: 448.62, BX: 5.47)",
+    "sentiment": {
+      "text": "Prediction: Amazon Will Beat The Market in The Next 10 Years -- Here's Why",
+      "url": "https://www.fool.com/investing/2026/04/13/prediction-amazon-will-beat-the-market-in-the-next/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "12B / 4S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T14:05:45.698Z"
+  },
+  "AMZN": {
+    "ticker": "AMZN",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 238.38, EMA200: 218.05, BX: 22.22)",
+    "sentiment": {
+      "text": "Prediction: Amazon Will Beat The Market in The Next 10 Years -- Here's Why",
+      "url": "https://www.fool.com/investing/2026/04/13/prediction-amazon-will-beat-the-market-in-the-next/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "5B / 2S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T14:05:58.572Z"
+  },
+  "AMD": {
+    "ticker": "AMD",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 245.04, EMA200: 188.08, BX: 29.33)",
+    "sentiment": {
+      "text": "Could Investing $500 a Month in ARKQ Make You a Millionaire?",
+      "url": "https://www.fool.com/investing/2026/04/13/could-investing-500-a-month-in-arkq-millionaire/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "7B / 1S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T14:06:11.404Z"
+  },
+  "ASML": {
+    "ticker": "ASML",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 1478.28, EMA200: 1092.45, BX: 1.61)",
+    "sentiment": {
+      "text": "Earnings Volatility Watch: This Stock Could Move 30% In A Single Day This Week",
+      "url": "https://www.benzinga.com/markets/equities/26/04/51777218/earnings-volatility-watch-options-implied-moves-april-2026?utm_source=benzinga_taxonomy&utm_medium=rss_feed_free&utm_content=taxonomy_rss&utm_campaign=channel",
+      "publisher": "Benzinga"
+    },
+    "stSentiment": {
+      "score": "Bearish",
+      "details": "1B / 6S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T14:06:24.089Z"
+  },
+  "ARM": {
+    "ticker": "ARM",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 148.93, EMA200: 134.81, BX: 12.52)",
+    "sentiment": {
+      "text": "Stock Market Today, April 7: Apple Slides Against Muted Market Backdrop",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/04/07/stock-market-today-april-7-apple-slides-against-muted-market-backdrop/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "6B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T14:06:36.811Z"
+  },
+  "TSLA": {
+    "ticker": "TSLA",
+    "decision": "ENTRY (SHORT)",
+    "reason": "Bearish Trend (Price: 348.95, EMA200: 381.68, BX: -17.81)",
+    "sentiment": {
+      "text": "Prediction: Amazon Will Beat The Market in The Next 10 Years -- Here's Why",
+      "url": "https://www.fool.com/investing/2026/04/13/prediction-amazon-will-beat-the-market-in-the-next/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "8B / 3S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T14:06:49.571Z"
+  },
+  "AAPL": {
+    "ticker": "AAPL",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 260.48, EMA200: 245.50, BX: 14.87)",
+    "sentiment": {
+      "text": "Prediction: Amazon Will Beat The Market in The Next 10 Years -- Here's Why",
+      "url": "https://www.fool.com/investing/2026/04/13/prediction-amazon-will-beat-the-market-in-the-next/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "6B / 3S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T14:07:02.579Z"
+  },
+  "VOO": {
+    "ticker": "VOO",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 624.60, EMA200: 600.08, BX: 11.31)",
+    "sentiment": {
+      "text": "5 Popular Vanguard ETFs Are Splitting Their Shares. Do You Own Any, and Should You Be Rejoicing?",
+      "url": "https://www.fool.com/investing/2026/04/13/5-popular-vanguard-etfs-are-splitting-their-shares/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "8B / 4S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T14:07:15.450Z"
+  },
+  "QQQ": {
+    "ticker": "QQQ",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 611.07, EMA200: 582.68, BX: 10.68)",
+    "sentiment": {
+      "text": "AI Power Play: Cohere, Aleph Alpha In Advanced Merger Talks",
+      "url": "https://www.benzinga.com/markets/private-markets/26/04/51763564/ai-power-play-cohere-aleph-alpha-in-advanced-merger-talks?utm_source=benzinga_taxonomy&utm_medium=rss_feed_free&utm_content=taxonomy_rss&utm_campaign=channel",
+      "publisher": "Benzinga"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "12B / 3S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T14:07:28.125Z"
+  },
+  "HIMS": {
+    "ticker": "HIMS",
+    "decision": "WATCH",
+    "reason": "Neutral Trend: Below EMA200 (Bearish) | Momentum: Neutral Momentum | Price: 21.36 | EMA200: 35.44 | BX: 1.71",
+    "sentiment": {
+      "text": "3 Sectors to Buy While They’re Down and 1 to Walk Away From",
+      "url": "https://www.investing.com/analysis/3-sectors-to-buy-while-theyre-down-and-1-to-walk-away-from-200677987",
+      "publisher": "Investing.com"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "12B / 0S in last 30 posts"
+    },
+    "fa": {
+      "verdict": "BULLISH (FA)",
+      "summary": "P/S: 2.0 | Growth: 280.0% | CashRatio: 1.9 | Margin: 74%"
+    },
+    "timestamp": "2026-04-15T05:25:12.896Z"
+  },
+  "FLNC": {
+    "ticker": "FLNC",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 13.78, EMA200: 14.08, BX: 1.02)",
+    "sentiment": {
+      "text": "Fluence Energy Director Sells 10,000 Shares Amid 200% Stock Surge. Here's What Investors Should Know",
+      "url": "https://www.fool.com/coverage/filings/2026/03/24/director-sells-flnc-10000-shares-for-165000/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "13B / 4S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T14:07:53.649Z"
+  },
+  "ALB": {
+    "ticker": "ALB",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 173.64, EMA200: 123.38, BX: 4.36)",
+    "sentiment": {
+      "text": "Albemarle Announces Quarterly Common Stock Dividend",
+      "url": "https://www.benzinga.com/pressreleases/26/02/n50910480/albemarle-announces-quarterly-common-stock-dividend?utm_source=benzinga_taxonomy&utm_medium=rss_feed_free&utm_content=taxonomy_rss&utm_campaign=channel",
+      "publisher": "Benzinga"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "12B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T14:08:36.319Z"
+  },
+  "EQIX": {
+    "ticker": "EQIX",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 1030.24, EMA200: 860.84, BX: 0.84)",
+    "sentiment": {
+      "text": "2 Monster Stocks to Hold for the Next 10 Years",
+      "url": "https://www.fool.com/investing/2026/04/08/2-monster-stocks-to-hold-for-the-next-10-years/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "15B / 6S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T14:08:49.052Z"
+  },
+  "OKTA": {
+    "ticker": "OKTA",
+    "decision": "ENTRY (SHORT)",
+    "reason": "Bearish Trend (Price: 62.93, EMA200: 88.65, BX: -2.07)",
+    "sentiment": {
+      "text": "Nasdaq 100 Enters Correction As 30-Year Yields Near 5%: What's Moving Markets Friday?",
+      "url": "https://www.benzinga.com/markets/equities/26/03/51517275/iran-oil-price-today-nasdaq-correction-inflation-treasury-yields-stock-market-news-today-friday?utm_source=benzinga_taxonomy&utm_medium=rss_feed_free&utm_content=taxonomy_rss&utm_campaign=channel",
+      "publisher": "Benzinga"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "7B / 2S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T14:09:01.834Z"
+  },
+  "ISRG": {
+    "ticker": "ISRG",
+    "decision": "ENTRY (SHORT)",
+    "reason": "Bearish Trend (Price: 450.62, EMA200: 502.23, BX: -6.55)",
+    "sentiment": {
+      "text": "Market Crash: The Healthcare Stocks I'd Buy Without Hesitation",
+      "url": "https://www.fool.com/investing/2026/04/10/market-crash-the-healthcare-stocks-id-buy-without/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "2B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T14:09:14.549Z"
+  },
+  "MRVL": {
+    "ticker": "MRVL",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 128.49, EMA200: 81.59, BX: 32.00)",
+    "sentiment": {
+      "text": "Prediction: The Nasdaq Will Recover From This Correction Before the End of 2026. History Says Buy These AI Stocks Now.",
+      "url": "https://www.fool.com/investing/2026/04/10/predict-nasdaq-recover-correction-ai-stocks/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "10B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T14:09:27.297Z"
+  },
+  "IBM": {
+    "ticker": "IBM",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 230.76, EMA200: 267.95, BX: 11.54)",
+    "sentiment": {
+      "text": "Why Dollar-Cost Averaging May Not Make Sense With IonQ Stock",
+      "url": "https://www.fool.com/investing/2026/04/12/why-dollar-cost-averaging-may-not-make-sense-with/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "14B / 0S in last 28 posts"
+    },
+    "timestamp": "2026-04-13T14:09:40.089Z"
+  },
+  "CRM": {
+    "ticker": "CRM",
+    "decision": "ENTRY (SHORT)",
+    "reason": "Bearish Trend Trend: Below EMA200 (Bearish) | Momentum: Strong Bearish Momentum | Price: 171.31 | EMA200: 228.14 | BX: -11.89",
+    "sentiment": {
+      "text": "Stock Market Today, April 14: Oracle Jumps on Expanded Bloom Energy Deal",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/04/14/stock-market-today-april-14-oracle-jumps-on-expanded-bloom-energy-deal/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "8B / 5S in last 30 posts"
+    },
+    "fa": {
+      "verdict": "NEUTRAL",
+      "summary": "P/E: 21.8 | FCF Growth: 0.0% | D/E: 0.9 | Margin: 78%"
+    },
+    "timestamp": "2026-04-15T05:28:55.981Z"
+  },
+  "ADBE": {
+    "ticker": "ADBE",
+    "decision": "WATCH",
+    "reason": "Neutral Trend: Below EMA200 (Bearish) | Momentum: Strong Bullish Momentum | Price: 235.72 | EMA200: 315.82 | BX: 2.29",
+    "sentiment": {
+      "text": "Software Stocks Were Called Dead – They Just Had Their Best Day In A Year",
+      "url": "https://www.benzinga.com/markets/tech/26/04/51790744/oracle-igv-software-stocks-best-day-2026?utm_source=benzinga_taxonomy&utm_medium=rss_feed_free&utm_content=taxonomy_rss&utm_campaign=channel",
+      "publisher": "Benzinga"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "13B / 1S in last 30 posts"
+    },
+    "fa": {
+      "verdict": "BULLISH (FA)",
+      "summary": "P/E: 13.7 | FCF Growth: 255.2% | D/E: 1.6 | Margin: 89%"
+    },
+    "timestamp": "2026-04-15T05:29:33.121Z"
+  },
+  "NVO": {
+    "ticker": "NVO",
+    "decision": "WATCH",
+    "reason": "Neutral Trend: Below EMA200 (Bearish) | Momentum: Strong Bullish Momentum | Price: 39.32 | EMA200: 51.58 | BX: 28.96",
+    "sentiment": {
+      "text": "Novo Nordisk Expands AI Push With ChatGPT Parent OpenAI",
+      "url": "https://www.benzinga.com/news/health-care/26/04/51799784/novo-nordisk-expands-ai-push-with-chatgpt-parent-openai?utm_source=benzinga_taxonomy&utm_medium=rss_feed_free&utm_content=taxonomy_rss&utm_campaign=channel",
+      "publisher": "Benzinga"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "7B / 0S in last 30 posts"
+    },
+    "fa": {
+      "verdict": "N/A",
+      "summary": "No financial data"
+    },
+    "timestamp": "2026-04-15T05:33:53.311Z"
+  },
+  "IREN": {
+    "ticker": "IREN",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend Trend: Above EMA200 (Bullish) | Momentum: Strong Bullish Momentum | Price: 47.37 | EMA200: 35.27 | BX: 8.25",
+    "sentiment": {
+      "text": "Massive U.S. Data Center Delays and Cancellations Are Good for These 3 AI Stocks",
+      "url": "https://www.fool.com/investing/2026/04/14/massive-us-data-center-delays-and-cancellations-ar/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "13B / 1S in last 30 posts"
+    },
+    "fa": {
+      "verdict": "NEUTRAL",
+      "summary": "P/S: 18.7 | Growth: 309.9% | CashRatio: 5.0 | Margin: 68%"
+    },
+    "timestamp": "2026-04-15T05:27:41.712Z"
+  },
+  "ANET": {
+    "ticker": "ANET",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 147.35, EMA200: 126.23, BX: 7.94)",
+    "sentiment": {
+      "text": "Here's Why Arista Networks (ANET) is the First Stock I've Purchased in 2026",
+      "url": "https://www.fool.com/investing/2026/04/02/heres-why-arista-networks-anet-is-the-first-stock/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "3B / 1S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:24:25.915Z"
+  },
+  "OPEN": {
+    "ticker": "OPEN",
+    "decision": "ENTRY (SHORT)",
+    "reason": "Bearish Trend (Price: 4.32, EMA200: 4.56, BX: -11.87)",
+    "sentiment": {
+      "text": "If You Invested $10,000 in Each of These 3 Stocks After the Liberation Day Tariffs Were Announced, You'd Be Up Around $233,000 Right Now",
+      "url": "https://www.fool.com/investing/2026/04/02/if-you-invested-10000-in-each-of-these-3-stocks-af/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "14B / 5S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:24:38.674Z"
+  },
+  "SNPS": {
+    "ticker": "SNPS",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 392.24, EMA200: 467.39, BX: -1.07)",
+    "sentiment": {
+      "text": "Nvidia Stock Just Got Hit by a Shift Not Seen in 13 years. Here's What Investors Should Do Next",
+      "url": "https://www.fool.com/investing/2026/04/08/nvidia-stock-just-got-hit-by-a-shift-not-seen-in-1/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "8B / 2S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:24:51.370Z"
+  },
+  "HOOD": {
+    "ticker": "HOOD",
+    "decision": "WATCH",
+    "reason": "Neutral Trend: Below EMA200 (Bearish) | Momentum: Strong Bullish Momentum | Price: 79.09 | EMA200: 92.16 | BX: 21.05",
+    "sentiment": {
+      "text": "Robinhood's Risk Profile Could Be Worse Than You Think",
+      "url": "https://www.fool.com/investing/2026/04/10/robinhoods-risk-profile-could-be-worse-than-you-th/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "6B / 2S in last 30 posts"
+    },
+    "fa": {
+      "verdict": "NEUTRAL",
+      "summary": "P/S: 15.7 | Growth: 248.6% | CashRatio: 1.3 | Margin: 0%"
+    },
+    "timestamp": "2026-04-15T05:27:04.515Z"
+  },
+  "ORCL": {
+    "ticker": "ORCL",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 138.09, EMA200: 192.04, BX: -0.32)",
+    "sentiment": {
+      "text": "Should You Buy the Vanguard Information Technology ETF During the Nasdaq Correction? History Offers a Clear Answer",
+      "url": "https://www.fool.com/investing/2026/04/12/you-buy-vanguard-information-technology-etf-nasdaq/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "8B / 3S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:25:16.774Z"
+  },
+  "XLV": {
+    "ticker": "XLV",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 147.31, EMA200: 145.65, BX: 7.47)",
+    "sentiment": {
+      "text": "Trump Imposes 100% Drug Tariffs: 5 Pharma Stocks That Won’t Pay a Dime",
+      "url": "https://www.investing.com/analysis/trump-imposes-100-drug-tariffs-5-pharma-stocks-that-wont-pay-a-dime-200677883",
+      "publisher": "Investing.com"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "7B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:25:29.495Z"
+  },
+  "BMNR": {
+    "ticker": "BMNR",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 21.28, EMA200: 28.74, BX: 13.67)",
+    "sentiment": {
+      "text": "Stock Market Today, March 31: Bitmine Immersion Technologies Jumps on Crypto Recovery Hopes",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/03/31/stock-market-today-march-31-bitmine-immersion-technologies-jumps-on-crypto-recovery-hopes/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "13B / 3S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:25:42.230Z"
+  },
+  "ZETA": {
+    "ticker": "ZETA",
+    "decision": "ENTRY (SHORT)",
+    "reason": "Bearish Trend (Price: 14.61, EMA200: 17.11, BX: -9.88)",
+    "sentiment": {
+      "text": "Consumer Tech News (Jan 5-9): Semiconductors Steal CES 2026 Spotlight, AI Regulation Tightens As Governments Crack Down & More",
+      "url": "https://www.benzinga.com/markets/large-cap/26/01/49831753/consumer-tech-news-jan-5-9-semiconductors-steal-ces-2026-spotlight-ai-regulation-tightens-as-go?utm_source=benzinga_taxonomy&utm_medium=rss_feed_free&utm_content=taxonomy_rss&utm_campaign=channel",
+      "publisher": "Benzinga"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "2B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:25:54.972Z"
+  },
+  "TMDX": {
+    "ticker": "TMDX",
+    "decision": "ENTRY (SHORT)",
+    "reason": "Bearish Trend (Price: 114.00, EMA200: 121.87, BX: -3.17)",
+    "sentiment": {
+      "text": "TransMedics Stock Is Up 104% Over the Last Year: Is It Too Late to Buy for 2026?",
+      "url": "https://www.fool.com/investing/2026/03/08/transmedics-stock-is-up-104-over-the-last-year-is/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "11B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:26:08.811Z"
+  },
+  "UNH": {
+    "ticker": "UNH",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 304.33, EMA200: 312.94, BX: 22.51)",
+    "sentiment": {
+      "text": "The Great Rotation: Buy This Sector Before It Comes Back in Style",
+      "url": "https://www.fool.com/investing/2026/04/12/great-rotation-buy-healthcare-sector-before-oscr/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "7B / 2S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:26:21.459Z"
+  },
+  "FIG": {
+    "ticker": "FIG",
+    "decision": "ENTRY (SHORT)",
+    "reason": "Bearish Trend (Price: 18.16, EMA200: 34.06, BX: -13.70)",
+    "sentiment": {
+      "text": "3 Sectors to Buy While They’re Down and 1 to Walk Away From",
+      "url": "https://www.investing.com/analysis/3-sectors-to-buy-while-theyre-down-and-1-to-walk-away-from-200677987",
+      "publisher": "Investing.com"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "6B / 3S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:26:35.571Z"
+  },
+  "PLTR": {
+    "ticker": "PLTR",
+    "decision": "ENTRY (SHORT)",
+    "reason": "Bearish Trend (Price: 128.06, EMA200: 152.96, BX: -11.65)",
+    "sentiment": {
+      "text": "Palantir Billionaire Peter Thiel Sells 2 Trillion-Dollar AI Stocks, but Wall Street Says It's Time to Buy",
+      "url": "https://www.fool.com/investing/2026/04/13/palantir-peter-thiel-sells-2-ai-stocks-time-to-buy/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "14B / 1S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:26:48.123Z"
+  },
+  "QDTE": {
+    "ticker": "QDTE",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 28.57, EMA200: 32.17, BX: 9.31)",
+    "sentiment": {
+      "text": "No recent news found",
+      "url": "#",
+      "publisher": "N/A"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "3B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:27:00.843Z"
+  },
+  "SPYI": {
+    "ticker": "SPYI",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 51.11, EMA200: 51.09, BX: 10.92)",
+    "sentiment": {
+      "text": "What I Wish I Knew About Dividend Stocks Before Buying ETFs And CEFs",
+      "url": "https://seekingalpha.com/article/4685821-what-i-wish-i-knew-about-dividend-stocks-before-buying-etfs-and-cefs",
+      "publisher": "Seeking Alpha"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "9B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:27:13.444Z"
+  },
+  "QTUM": {
+    "ticker": "QTUM",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 116.69, EMA200: 104.31, BX: 12.81)",
+    "sentiment": {
+      "text": "Tidal Financial Group and Defiance ETFs Announce Reverse Stock Splits for Select ETFs",
+      "url": "https://www.globenewswire.com/news-release/2026/02/26/3245871/0/en/Tidal-Financial-Group-and-Defiance-ETFs-Announce-Reverse-Stock-Splits-for-Select-ETFs.html",
+      "publisher": "GlobeNewswire Inc."
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "11B / 1S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:27:26.036Z"
+  },
+  "NCIQ": {
+    "ticker": "NCIQ",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 18.49, EMA200: 23.58, BX: 15.73)",
+    "sentiment": {
+      "text": "Ethereum Based Crypto Pepeto Closes In on Binance Listing While Cardano Price Prediction Builds Strong Momentum",
+      "url": "https://www.globenewswire.com/news-release/2026/04/13/3272173/0/en/Ethereum-Based-Crypto-Pepeto-Closes-In-on-Binance-Listing-While-Cardano-Price-Prediction-Builds-Strong-Momentum.html",
+      "publisher": "GlobeNewswire Inc."
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "2B / 0S in last 18 posts"
+    },
+    "timestamp": "2026-04-13T13:27:38.699Z"
+  },
+  "CRCL": {
+    "ticker": "CRCL",
+    "decision": "ENTRY (SHORT)",
+    "reason": "Bearish Trend (Price: 88.04, EMA200: 117.21, BX: -25.26)",
+    "sentiment": {
+      "text": "Why Circle Internet Stock Crashed Today",
+      "url": "https://www.fool.com/investing/2026/04/09/why-circle-internet-stock-crashed-today/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "13B / 3S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:27:51.304Z"
+  },
+  "ASTS": {
+    "ticker": "ASTS",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend Trend: Above EMA200 (Bullish) | Momentum: Strong Bullish Momentum | Price: 88.57 | EMA200: 69.94 | BX: 10.80",
+    "sentiment": {
+      "text": "5 Space Stocks Already Climbing Ahead of the SpaceX IPO",
+      "url": "https://www.investing.com/analysis/5-space-stocks-already-climbing-ahead-of-the-spacex-ipo-200678425",
+      "publisher": "Investing.com"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "15B / 3S in last 30 posts"
+    },
+    "fa": {
+      "verdict": "BEARISH (FA)",
+      "summary": "P/S: 319.7 | Growth: 30.6% | CashRatio: 16.4 | Margin: 0%"
+    },
+    "timestamp": "2026-04-15T05:25:50.053Z"
+  },
+  "LULU": {
+    "ticker": "LULU",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 163.86, EMA200: 196.24, BX: 9.64)",
+    "sentiment": {
+      "text": "The Secret to Out-Innovating the Competition: Inside the Tesla Playbook",
+      "url": "https://www.fool.com/investing/2026/04/11/the-secret-to-out-innovating-the-competition-inside-the-tesla-playbook/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "16B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:28:16.681Z"
+  },
+  "BITX": {
+    "ticker": "BITX",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 17.13, EMA200: 35.39, BX: 19.86)",
+    "sentiment": {
+      "text": "5 Best-Performing Leveraged ETFs of 1H",
+      "url": "https://www.zacks.com/stock/news/2293695/5-best-performing-leveraged-etfs-of-1h",
+      "publisher": "Zacks Investment Research"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "9B / 2S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:28:29.252Z"
+  },
+  "CRWV": {
+    "ticker": "CRWV",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 102.00, EMA200: 97.21, BX: 14.23)",
+    "sentiment": {
+      "text": "Why Nvidia Stock May Frustrate Some Growth Investors",
+      "url": "https://www.fool.com/investing/2026/04/12/why-nvidia-stock-may-frustrate-some-growth-investo/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "12B / 2S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:28:41.848Z"
+  },
+  "SOXX": {
+    "ticker": "SOXX",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 386.60, EMA200: 293.39, BX: 15.38)",
+    "sentiment": {
+      "text": "FTEC vs. SOXX: Which Tech ETF Is the Better Buy for Your Portfolio?",
+      "url": "https://www.fool.com/coverage/etfs/2026/03/26/ftec-vs-soxx-which-tech-etf-is-the-better-buy-for-your-portfolio/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "3B / 2S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:28:54.530Z"
+  },
+  "SPXS": {
+    "ticker": "SPXS",
+    "decision": "ENTRY (SHORT)",
+    "reason": "Bearish Trend (Price: 35.48, EMA200: 41.55, BX: -14.08)",
+    "sentiment": {
+      "text": "Economy Hasn't Gained, Interest Rates Haven't Changed, QQQ +40% Since October",
+      "url": "https://seekingalpha.com/article/4701783-economy-hasnt-gained-interest-rates-havent-changed-qqq-plus-40-percent-since-october",
+      "publisher": "Seeking Alpha"
+    },
+    "stSentiment": {
+      "score": "Bearish",
+      "details": "1B / 3S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:29:07.354Z"
+  },
+  "SPY": {
+    "ticker": "SPY",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 679.46, EMA200: 652.50, BX: 11.93)",
+    "sentiment": {
+      "text": "This ’Do Nothing’ Portfolio Move Pays 8.3% and Lets Us Sleep at Night",
+      "url": "https://www.investing.com/analysis/this-do-nothing-portfolio-move-pays-83-and-lets-us-sleep-at-night-200678310",
+      "publisher": "Investing.com"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "10B / 5S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:29:20.159Z"
+  },
+  "TSLL": {
+    "ticker": "TSLL",
+    "decision": "ENTRY (SHORT)",
+    "reason": "Bearish Trend (Price: 10.61, EMA200: 14.87, BX: -16.16)",
+    "sentiment": {
+      "text": "Tesla Bear? Nvidia Bull? Leveraged And Inverse Single Stock ETFs Can Help You Maximize Your View",
+      "url": "https://www.benzinga.com/trading-ideas/long-ideas/24/03/37919668/tesla-bear-nvidia-bull-leveraged-and-inverse-single-stock-etfs-can-help-you-maximize-you",
+      "publisher": "Benzinga"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "5B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:29:33.055Z"
+  },
+  "NFLX": {
+    "ticker": "NFLX",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 103.01, EMA200: 104.16, BX: 10.20)",
+    "sentiment": {
+      "text": "Earnings Volatility Watch: This Stock Could Move 30% In A Single Day This Week",
+      "url": "https://www.benzinga.com/markets/equities/26/04/51777218/earnings-volatility-watch-options-implied-moves-april-2026?utm_source=benzinga_taxonomy&utm_medium=rss_feed_free&utm_content=taxonomy_rss&utm_campaign=channel",
+      "publisher": "Benzinga"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "13B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:29:45.706Z"
+  },
+  "NVDL": {
+    "ticker": "NVDL",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 84.61, EMA200: 78.15, BX: 9.00)",
+    "sentiment": {
+      "text": "5 Active ETFs Loved by Investors in 1H",
+      "url": "https://www.zacks.com/stock/news/2294565/5-active-etfs-loved-by-investors-in-1h",
+      "publisher": "Zacks Investment Research"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "6B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:29:58.307Z"
+  },
+  "ETHE": {
+    "ticker": "ETHE",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 18.32, EMA200: 23.02, BX: 19.52)",
+    "sentiment": {
+      "text": "5 Things to Know About Ethereum's First Spot Price ETFs",
+      "url": "https://www.fool.com/investing/2024/05/29/5-things-to-know-about-ethereums-first-spot-etfs/",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "10B / 2S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:30:11.610Z"
+  },
+  "GBTC": {
+    "ticker": "GBTC",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 57.04, EMA200: 71.07, BX: 15.47)",
+    "sentiment": {
+      "text": "Top and Flop ETFs of the First Half",
+      "url": "https://www.zacks.com/stock/news/2295083/top-and-flop-etfs-of-the-first-half",
+      "publisher": "Zacks Investment Research"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "6B / 3S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:30:24.357Z"
+  },
+  "MELI": {
+    "ticker": "MELI",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 1773.96, EMA200: 2095.09, BX: 27.20)",
+    "sentiment": {
+      "text": "MercadoLibre Is Investing Heavily in AI. Will This Bet Pay Off for the Stock in 2026 and Beyond?",
+      "url": "https://www.fool.com/investing/2026/04/10/mercadolibre-is-investing-heavily-in-ai-will-this/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "6B / 1S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:31:37.589Z"
+  },
+  "RTX": {
+    "ticker": "RTX",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 201.56, EMA200: 175.29, BX: -2.01)",
+    "sentiment": {
+      "text": "RTX Is Outperforming Everything. Is It Still the Smartest Buy Right Now?",
+      "url": "https://www.fool.com/investing/2026/04/12/rtx-outperforming-everything-still-smart-buy/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "10B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:31:50.284Z"
+  },
+  "LMT": {
+    "ticker": "LMT",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 613.72, EMA200: 539.24, BX: -15.99)",
+    "sentiment": {
+      "text": "Lockheed Martin Boosts Missile Output With $4.7 Billion U.S. Order",
+      "url": "https://www.benzinga.com/markets/large-cap/26/04/51761211/lockheed-martin-boosts-missile-output-with-4-7-billion-u-s-order?utm_source=benzinga_taxonomy&utm_medium=rss_feed_free&utm_content=taxonomy_rss&utm_campaign=channel",
+      "publisher": "Benzinga"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "9B / 2S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:32:03.019Z"
+  },
+  "BKNG": {
+    "ticker": "BKNG",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 173.46, EMA200: 196.94, BX: 17.76)",
+    "sentiment": {
+      "text": "Vacation Rental Market to Surpass USD 136 Bn by 2031 Asia-Pacific Emerges as Fastest-Growing Region Amid Steady Global Growth, Reports Mordor Intelligence",
+      "url": "https://www.globenewswire.com/news-release/2026/04/13/3272226/0/en/Vacation-Rental-Market-to-Surpass-USD-136-Bn-by-2031-Asia-Pacific-Emerges-as-Fastest-Growing-Region-Amid-Steady-Global-Growth-Reports-Mordor-Intelligence.html",
+      "publisher": "GlobeNewswire Inc."
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "6B / 2S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:32:45.773Z"
+  },
+  "INTU": {
+    "ticker": "INTU",
+    "decision": "ENTRY (SHORT)",
+    "reason": "Bearish Trend (Price: 350.94, EMA200: 580.58, BX: -9.41)",
+    "sentiment": {
+      "text": "Could Anthropic's Claude CoWork Say \"Checkmate\" to Palantir's Artificial Intelligence Platform (AIP)?",
+      "url": "https://www.fool.com/investing/2026/04/03/anthropic-claude-cowork-checkmate-palantir-aip/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "15B / 2S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:32:58.734Z"
+  },
+  "NBIS": {
+    "ticker": "NBIS",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 144.97, EMA200: 86.10, BX: 7.05)",
+    "sentiment": {
+      "text": "Intel, Nebius, And Applied Optoelectronics Are Among the Top 10 Large-Cap Gainers Last Week (April 6-April 10): Are the Others in Your Portfolio?",
+      "url": "https://www.benzinga.com/markets/large-cap/26/04/51770602/intel-nebius-and-applied-optoelectronics-are-among-the-top-10-large-cap-gainers-last-week-april?utm_source=benzinga_taxonomy&utm_medium=rss_feed_free&utm_content=taxonomy_rss&utm_campaign=channel",
+      "publisher": "Benzinga"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "12B / 2S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:33:11.443Z"
+  },
+  "ALAB": {
+    "ticker": "ALAB",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 149.05, EMA200: 137.47, BX: 17.11)",
+    "sentiment": {
+      "text": "Intel, Nebius, And Applied Optoelectronics Are Among the Top 10 Large-Cap Gainers Last Week (April 6-April 10): Are the Others in Your Portfolio?",
+      "url": "https://www.benzinga.com/markets/large-cap/26/04/51770602/intel-nebius-and-applied-optoelectronics-are-among-the-top-10-large-cap-gainers-last-week-april?utm_source=benzinga_taxonomy&utm_medium=rss_feed_free&utm_content=taxonomy_rss&utm_campaign=channel",
+      "publisher": "Benzinga"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "11B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:33:24.129Z"
+  },
+  "RDDT": {
+    "ticker": "RDDT",
+    "decision": "WATCH",
+    "reason": "Neutral Trend: Below EMA200 (Bearish) | Momentum: Strong Bullish Momentum | Price: 154.54 | EMA200: 167.73 | BX: 26.58",
+    "sentiment": {
+      "text": "Why LanzaTech Stock Soared Over 40% This Week",
+      "url": "https://www.fool.com/investing/2026/04/10/why-lanzatech-stock-soared-over-40-this-week/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "20B / 1S in last 30 posts"
+    },
+    "fa": {
+      "verdict": "NEUTRAL",
+      "summary": "P/S: 13.1 | Growth: 203.5% | CashRatio: 11.6 | Margin: 91%"
+    },
+    "timestamp": "2026-04-15T05:32:39.088Z"
+  },
+  "NOW": {
+    "ticker": "NOW",
+    "decision": "ENTRY (SHORT)",
+    "reason": "Bearish Trend Trend: Below EMA200 (Bearish) | Momentum: Strong Bearish Momentum | Price: 87.79 | EMA200: 149.75 | BX: -21.23",
+    "sentiment": {
+      "text": "SaaS Stocks Try To Recover — 'Software Empire Strikes Back'",
+      "url": "https://www.benzinga.com/trading-ideas/movers/26/04/51785080/saas-stocks-try-to-recover-software-empire-strikes-back?utm_source=benzinga_taxonomy&utm_medium=rss_feed_free&utm_content=taxonomy_rss&utm_campaign=channel",
+      "publisher": "Benzinga"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "12B / 1S in last 30 posts"
+    },
+    "fa": {
+      "verdict": "BEARISH (FA)",
+      "summary": "P/E: 51.9 | FCF Growth: 143.3% | D/E: 1.0 | Margin: 78%"
+    },
+    "timestamp": "2026-04-15T05:30:47.648Z"
+  },
+  "CRWD": {
+    "ticker": "CRWD",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 379.02, EMA200: 445.42, BX: 1.33)",
+    "sentiment": {
+      "text": "This Artificial Intelligence (AI) Stock Just Hit an All-Time Low, But Wall Street Says It's Time to Buy",
+      "url": "https://www.fool.com/investing/2026/04/13/this-ai-stock-hit-all-time-low-wall-street-time-bu/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "10B / 1S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:34:02.731Z"
+  },
+  "NNDM": {
+    "ticker": "NNDM",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 1.71, EMA200: 1.67, BX: 0.58)",
+    "sentiment": {
+      "text": "Nano Dimension Announces the Sale of AME and Fabrica Product Lines",
+      "url": "https://www.benzinga.com/pressreleases/26/04/g51655485/nano-dimension-announces-the-sale-of-ame-and-fabrica-product-lines?utm_source=benzinga_taxonomy&utm_medium=rss_feed_free&utm_content=taxonomy_rss&utm_campaign=channel",
+      "publisher": "Benzinga"
+    },
+    "stSentiment": {
+      "score": "Bearish",
+      "details": "3B / 6S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:34:15.617Z"
+  },
+  "COWZ": {
+    "ticker": "COWZ",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 61.50, EMA200: 59.34, BX: -5.25)",
+    "sentiment": {
+      "text": "3 of the Best Thematic ETFs for Investors in 2025",
+      "url": "https://www.investing.com/analysis/3-of-the-best-thematic-etfs-for-investors-in-2025-200655210",
+      "publisher": "Investing.com"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "9B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:34:28.574Z"
+  },
+  "PANW": {
+    "ticker": "PANW",
+    "decision": "WATCH",
+    "reason": "Neutral Trend: Below EMA200 (Bearish) | Momentum: Strong Bullish Momentum | Price: 161.59 | EMA200: 180.40 | BX: 8.26",
+    "sentiment": {
+      "text": "The \"SaaSpocalypse\" Created the Best Buying Opportunity in Cybersecurity in Years. Don't Miss It.",
+      "url": "https://www.fool.com/investing/2026/04/14/saaspocalypse-create-buy-opportunity-cybersecurity/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "8B / 0S in last 30 posts"
+    },
+    "fa": {
+      "verdict": "BEARISH (FA)",
+      "summary": "P/E: 86.4 | FCF Growth: 617.3% | D/E: 1.7 | Margin: 74%"
+    },
+    "timestamp": "2026-04-15T05:31:24.767Z"
+  },
+  "OCC": {
+    "ticker": "OCC",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 11.37, EMA200: 6.27, BX: 14.70)",
+    "sentiment": {
+      "text": "Optical Cable Net Sales Jump 23 Percent",
+      "url": "https://www.fool.com/data-news/2025/09/11/optical-cable-net-sales-jump-23-percent/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "16B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:34:53.999Z"
+  },
+  "HUM": {
+    "ticker": "HUM",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 192.15, EMA200: 227.79, BX: 36.02)",
+    "sentiment": {
+      "text": "UnitedHealth, Humana, CVS Jump As CMS Boosts Medicare Payments",
+      "url": "https://www.benzinga.com/news/health-care/26/04/51681721/unitedhealth-humana-cvs-jump-as-cms-boosts-medicare-payments?utm_source=benzinga_taxonomy&utm_medium=rss_feed_free&utm_content=taxonomy_rss&utm_campaign=channel",
+      "publisher": "Benzinga"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "10B / 1S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:35:06.759Z"
+  },
+  "B": {
+    "ticker": "B",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 43.55, EMA200: 37.08, BX: 10.80)",
+    "sentiment": {
+      "text": "War Erases Gold And Silver Gains While Contrarians Eye Value",
+      "url": "https://www.benzinga.com/markets/commodities/26/03/51401878/war-erases-gold-and-silver-gains-while-contrarians-eye-value?utm_source=benzinga_taxonomy&utm_medium=rss_feed_free&utm_content=taxonomy_rss&utm_campaign=channel",
+      "publisher": "Benzinga"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "1B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:35:19.630Z"
+  },
+  "QPUX": {
+    "ticker": "QPUX",
+    "decision": "DATA_ERR",
+    "reason": "Wait for EOD Data",
+    "sentiment": {
+      "text": "No recent news found",
+      "url": "#",
+      "publisher": "N/A"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "14B / 0S in last 30 posts"
+    },
+    "fa": {
+      "verdict": "N/A",
+      "summary": "No financial data"
+    },
+    "timestamp": "2026-04-15T05:28:18.870Z"
+  },
+  "RBLX": {
+    "ticker": "RBLX",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 55.59, EMA200: 86.47, BX: 14.39)",
+    "sentiment": {
+      "text": "Stock Market Today, March 27: Unity Software Surges on Vector AI Guidance",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/03/27/stock-market-today-march-27-unity-software-surges-on-vector-ai-guidance/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "7B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:35:45.177Z"
+  },
+  "IHF": {
+    "ticker": "IHF",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 44.00, EMA200: 46.44, BX: 18.03)",
+    "sentiment": {
+      "text": "Employers prepare for disruptive and transformative health plan changes, WTW survey finds",
+      "url": "https://www.globenewswire.com/news-release/2025/09/22/3154226/0/en/Employers-prepare-for-disruptive-and-transformative-health-plan-changes-WTW-survey-finds.html",
+      "publisher": "GlobeNewswire Inc."
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "9B / 1S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:35:58.020Z"
+  },
+  "AIPO": {
+    "ticker": "AIPO",
+    "decision": "DATA_ERR",
+    "reason": "Wait for EOD Data",
+    "sentiment": {
+      "text": "Vertiv Ramps Up Capacity To Feed Surging AI Data Center Frenzy",
+      "url": "https://www.benzinga.com/trading-ideas/movers/26/03/51437404/vertiv-ramps-up-capacity-to-feed-surging-ai-data-center-frenzy?utm_source=benzinga_taxonomy&utm_medium=rss_feed_free&utm_content=taxonomy_rss&utm_campaign=channel",
+      "publisher": "Benzinga"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "16B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:36:10.711Z"
+  },
+  "BHP": {
+    "ticker": "BHP",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 76.81, EMA200: 61.66, BX: 11.02)",
+    "sentiment": {
+      "text": "Rust to Riches: The Great Resource Realignment",
+      "url": "https://www.investing.com/analysis/rust-to-riches-the-great-resource-realignment-200678153",
+      "publisher": "Investing.com"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "2B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:36:23.562Z"
+  },
+  "SCCO": {
+    "ticker": "SCCO",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 192.56, EMA200: 142.88, BX: 9.65)",
+    "sentiment": {
+      "text": "Copper-Aluminum Divergence Unveils The Complex Iran War Impact",
+      "url": "https://www.benzinga.com/markets/commodities/26/04/51620375/copper-aluminum-divergence-unveils-the-complex-iran-war-impact?utm_source=benzinga_taxonomy&utm_medium=rss_feed_free&utm_content=taxonomy_rss&utm_campaign=channel",
+      "publisher": "Benzinga"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "10B / 3S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:36:36.277Z"
+  },
+  "MP": {
+    "ticker": "MP",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 55.24, EMA200: 54.50, BX: -3.22)",
+    "sentiment": {
+      "text": "I Finally Pulled the Trigger on a Rare-Earth Stock (and It's Not MP Materials or USA Rare Earth)",
+      "url": "https://www.fool.com/investing/2026/04/10/i-finally-pulled-the-trigger-on-a-rare-earth-stock/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "13B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:36:49.090Z"
+  },
+  "TMQ": {
+    "ticker": "TMQ",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 3.88, EMA200: 3.38, BX: 20.52)",
+    "sentiment": {
+      "text": "Why Trilogy Metals Stock Is Crashing This Week",
+      "url": "https://www.fool.com/investing/2026/02/19/why-trilogy-metals-stock-is-crashing-this-week/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "8B / 5S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:37:01.852Z"
+  },
+  "PPLT": {
+    "ticker": "PPLT",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 186.20, EMA200: 157.13, BX: 7.83)",
+    "sentiment": {
+      "text": "The Platinum / Silver Spread Offers Security And Profit Potential",
+      "url": "https://seekingalpha.com/article/4689542-the-platinum-silver-spread-offers-security-and-profit-potential",
+      "publisher": "Seeking Alpha"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "10B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:37:14.695Z"
+  },
+  "URA": {
+    "ticker": "URA",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 50.96, EMA200: 45.31, BX: 8.65)",
+    "sentiment": {
+      "text": "Nuclear’s Pullback: A Generational Buying Opportunity?",
+      "url": "https://www.investing.com/analysis/nuclears-pullback-a-generational-buying-opportunity-200677779",
+      "publisher": "Investing.com"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "11B / 1S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:37:27.382Z"
+  },
+  "WPM": {
+    "ticker": "WPM",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 144.84, EMA200: 116.16, BX: 7.38)",
+    "sentiment": {
+      "text": "Is Wheaton Precious Metals a Good Inflation Hedge?",
+      "url": "https://www.fool.com/investing/2026/04/06/is-wheaton-precious-metals-a-good-inflation-hedge/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "7B / 1S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:37:40.090Z"
+  },
+  "FCX": {
+    "ticker": "FCX",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 67.80, EMA200: 50.49, BX: 15.79)",
+    "sentiment": {
+      "text": "U.S. Rare Earth Processor Locks In Supply Ahead of 2027 Cutoff",
+      "url": "https://www.benzinga.com/pressreleases/26/04/n51676209/u-s-rare-earth-processor-locks-in-supply-ahead-of-2027-cutoff?utm_source=benzinga_taxonomy&utm_medium=rss_feed_free&utm_content=taxonomy_rss&utm_campaign=channel",
+      "publisher": "Benzinga"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "15B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:37:52.985Z"
+  },
+  "PICK": {
+    "ticker": "PICK",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 61.29, EMA200: 49.14, BX: 14.52)",
+    "sentiment": {
+      "text": "Mining Deals Surge, But Majority Goes To Latin America, Study",
+      "url": "https://www.benzinga.com/markets/commodities/26/01/49929653/mining-deals-surge-but-majority-goes-to-latin-america-study?utm_source=benzinga_taxonomy&utm_medium=rss_feed_free&utm_content=taxonomy_rss&utm_campaign=channel",
+      "publisher": "Benzinga"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "1B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:38:05.904Z"
+  },
+  "TMC": {
+    "ticker": "TMC",
+    "decision": "ENTRY (SHORT)",
+    "reason": "Bearish Trend (Price: 4.34, EMA200: 5.84, BX: -7.36)",
+    "sentiment": {
+      "text": "12 Months From Now, Will You Wish You Bought TMC The Metals Company Today?",
+      "url": "https://www.fool.com/investing/2026/04/12/12-months-from-now-will-you-wish-bought-tmc-metals/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "19B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:38:18.707Z"
+  },
+  "NLR": {
+    "ticker": "NLR",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 136.75, EMA200: 127.84, BX: 4.63)",
+    "sentiment": {
+      "text": "3 Powerful Nuclear Energy Stocks to Buy in April",
+      "url": "https://www.fool.com/investing/2026/04/06/3-powerful-nuclear-energy-stocks-to-buy-in-april/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "11B / 2S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:38:31.479Z"
+  },
+  "IYM": {
+    "ticker": "IYM",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 185.46, EMA200: 158.22, BX: 13.26)",
+    "sentiment": {
+      "text": "Copper-Aluminum Divergence Unveils The Complex Iran War Impact",
+      "url": "https://www.benzinga.com/markets/commodities/26/04/51620375/copper-aluminum-divergence-unveils-the-complex-iran-war-impact?utm_source=benzinga_taxonomy&utm_medium=rss_feed_free&utm_content=taxonomy_rss&utm_campaign=channel",
+      "publisher": "Benzinga"
+    },
+    "stSentiment": {
+      "score": "Neutral",
+      "details": "No recent sentiment"
+    },
+    "timestamp": "2026-04-13T13:38:44.320Z"
+  },
+  "AVAV": {
+    "ticker": "AVAV",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 179.72, EMA200: 246.00, BX: 3.79)",
+    "sentiment": {
+      "text": "$100Billion+ Drone Services Boom Fuels Rapid Rise of Drone-as-a-Service",
+      "url": "https://www.benzinga.com/pressreleases/26/04/n51730018/100billion-drone-services-boom-fuels-rapid-rise-of-drone-as-a-service?utm_source=benzinga_taxonomy&utm_medium=rss_feed_free&utm_content=taxonomy_rss&utm_campaign=channel",
+      "publisher": "Benzinga"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "8B / 3S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:38:57.016Z"
+  },
+  "USAR": {
+    "ticker": "USAR",
+    "decision": "ENTRY (SHORT)",
+    "reason": "Bearish Trend (Price: 16.15, EMA200: 16.65, BX: -8.00)",
+    "sentiment": {
+      "text": "I Finally Pulled the Trigger on a Rare-Earth Stock (and It's Not MP Materials or USA Rare Earth)",
+      "url": "https://www.fool.com/investing/2026/04/10/i-finally-pulled-the-trigger-on-a-rare-earth-stock/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "14B / 2S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:39:09.740Z"
+  },
+  "DUOL": {
+    "ticker": "DUOL",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 90.03, EMA200: 235.33, BX: 22.99)",
+    "sentiment": {
+      "text": "Down 80%, Is Duolingo Stock a Buy Now?",
+      "url": "https://www.fool.com/investing/2026/03/31/down-80-is-duolingo-stock-a-buy-now/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "7B / 3S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:39:22.454Z"
+  },
+  "RKLB": {
+    "ticker": "RKLB",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 68.05, EMA200: 56.31, BX: 2.03)",
+    "sentiment": {
+      "text": "Could Investing $500 a Month in ARKQ Make You a Millionaire?",
+      "url": "https://www.fool.com/investing/2026/04/13/could-investing-500-a-month-in-arkq-millionaire/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "11B / 1S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:39:35.306Z"
+  },
+  "MSTR": {
+    "ticker": "MSTR",
+    "decision": "WATCH",
+    "reason": "Neutral Trend: Below EMA200 (Bearish) | Momentum: Neutral Momentum | Price: 137.41 | EMA200: 237.43 | BX: 1.12",
+    "sentiment": {
+      "text": "Strategy Stock Surges As Bitcoin Pushes Higher",
+      "url": "https://www.benzinga.com/trading-ideas/movers/26/04/51664927/strategy-stock-surges-as-bitcoin-pushes-higher?utm_source=benzinga_taxonomy&utm_medium=rss_feed_free&utm_content=taxonomy_rss&utm_campaign=channel",
+      "publisher": "Benzinga"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "7B / 0S in last 30 posts"
+    },
+    "fa": {
+      "verdict": "BEARISH (FA)",
+      "summary": "P/S: 79.9 | Growth: 288.0% | CashRatio: 5.6 | Margin: 69%"
+    },
+    "timestamp": "2026-04-15T05:35:07.606Z"
+  },
+  "HBM": {
+    "ticker": "HBM",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 24.33, EMA200: 17.26, BX: 15.06)",
+    "sentiment": {
+      "text": "Hudbay to Host Conference Call for First Quarter 2026 Results",
+      "url": "https://www.globenewswire.com/news-release/2026/04/08/3270483/0/en/Hudbay-to-Host-Conference-Call-for-First-Quarter-2026-Results.html",
+      "publisher": "GlobeNewswire Inc."
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "10B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:40:01.017Z"
+  },
+  "RXRX": {
+    "ticker": "RXRX",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 3.28, EMA200: 4.41, BX: 15.52)",
+    "sentiment": {
+      "text": "Recursion Expands Strategic Partnership with Citeline to Advance Its AI-Enabled ClinTech Platform",
+      "url": "https://www.globenewswire.com/news-release/2026/03/31/3265558/0/en/Recursion-Expands-Strategic-Partnership-with-Citeline-to-Advance-Its-AI-Enabled-ClinTech-Platform.html",
+      "publisher": "GlobeNewswire Inc."
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "11B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:40:13.958Z"
+  },
+  "GEV": {
+    "ticker": "GEV",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 991.32, EMA200: 677.16, BX: 7.65)",
+    "sentiment": {
+      "text": "What's Going On With GE Vernova Stock Tuesday?",
+      "url": "https://www.benzinga.com/markets/large-cap/26/04/51682126/whats-going-on-with-ge-vernova-stock-tuesday?utm_source=benzinga_taxonomy&utm_medium=rss_feed_free&utm_content=taxonomy_rss&utm_campaign=channel",
+      "publisher": "Benzinga"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "12B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:40:26.751Z"
+  },
+  "SNDK": {
+    "ticker": "SNDK",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 851.77, EMA200: 336.50, BX: 4.87)",
+    "sentiment": {
+      "text": "Prediction: The Best-Performing Artificial Intelligence (AI) Stock of Q2 2026 Isn't Nvidia. It's This One.",
+      "url": "https://www.fool.com/investing/2026/04/11/prediction-the-best-performing-artificial-intellig/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "9B / 3S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:40:39.398Z"
+  },
+  "PINS": {
+    "ticker": "PINS",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 17.62, EMA200: 26.38, BX: 13.51)",
+    "sentiment": {
+      "text": "NYSE: PINS: Kessler Topaz Meltzer & Check, LLP Announces the Filing of a Securities Fraud Class Action Lawsuit Against Pinterest, Inc.",
+      "url": "https://www.globenewswire.com/news-release/2026/04/12/3272159/0/en/NYSE-PINS-Kessler-Topaz-Meltzer-Check-LLP-Announces-the-Filing-of-a-Securities-Fraud-Class-Action-Lawsuit-Against-Pinterest-Inc.html",
+      "publisher": "GlobeNewswire Inc."
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "17B / 5S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:40:52.064Z"
+  },
+  "SMR": {
+    "ticker": "SMR",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 9.21, EMA200: 23.68, BX: 0.03)",
+    "sentiment": {
+      "text": "Nuclear Stock Face-Off: Is Oklo or NuScale Power the Better Buy Right Now?",
+      "url": "https://www.fool.com/investing/2026/04/12/nuclear-stock-face-off-oklo-nuscale-power-buy/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "7B / 2S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:41:04.704Z"
+  },
+  "ICLN": {
+    "ticker": "ICLN",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 18.92, EMA200: 16.22, BX: -1.01)",
+    "sentiment": {
+      "text": "3 Clean Energy Stocks With Bullish Moving Average Signals",
+      "url": "https://www.investing.com/analysis/3-clean-energy-stocks-with-bullish-moving-average-signals-200678074",
+      "publisher": "Investing.com"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "6B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:41:17.503Z"
+  },
+  "XLF": {
+    "ticker": "XLF",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 50.77, EMA200: 51.77, BX: 25.43)",
+    "sentiment": {
+      "text": "S&P 500 Financials Earnings: Private Credit Fears Creating Attractive Values",
+      "url": "https://www.investing.com/analysis/sp-500-financials-earnings-private-credit-fears-creating-attractive-values-200678286",
+      "publisher": "Investing.com"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "3B / 1S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:41:30.263Z"
+  },
+  "COIN": {
+    "ticker": "COIN",
+    "decision": "ENTRY (SHORT)",
+    "reason": "Bearish Trend Trend: Below EMA200 (Bearish) | Momentum: Strong Bearish Momentum | Price: 184.41 | EMA200: 245.84 | BX: -5.11",
+    "sentiment": {
+      "text": "The Smartest Way to Build a Diversified Cryptocurrency Portfolio",
+      "url": "https://www.fool.com/investing/2026/04/14/the-smartest-way-to-build-a-diversified-cryptocurr/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "14B / 0S in last 30 posts"
+    },
+    "fa": {
+      "verdict": "BULLISH (FA)",
+      "summary": "P/S: 6.7 | Growth: 303.2% | CashRatio: 2.3 | Margin: 0%"
+    },
+    "timestamp": "2026-04-15T05:26:27.226Z"
+  },
+  "NRGV": {
+    "ticker": "NRGV",
+    "decision": "ENTRY (LONG)",
+    "reason": "Bullish Trend (Price: 3.26, EMA200: 2.86, BX: 5.38)",
+    "sentiment": {
+      "text": "Why Energy Vault Stock Exploded Higher Today",
+      "url": "https://www.fool.com/investing/2025/11/11/why-energy-vault-stock-exploded-higher-today/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "11B / 1S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:41:55.543Z"
+  },
+  "MEME": {
+    "ticker": "MEME",
+    "decision": "DATA_ERR",
+    "reason": "Wait for EOD Data",
+    "sentiment": {
+      "text": "What's Going On USA Rare Earth Shares On Thursday?",
+      "url": "https://www.benzinga.com/m-a/26/03/51075655/whats-going-on-usa-rare-earth-shares-on-thursday?utm_source=benzinga_taxonomy&utm_medium=rss_feed_free&utm_content=taxonomy_rss&utm_campaign=channel",
+      "publisher": "Benzinga"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "8B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:42:08.269Z"
+  },
+  "QS": {
+    "ticker": "QS",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 6.36, EMA200: 8.63, BX: 16.23)",
+    "sentiment": {
+      "text": "Massive News: QuantumScape's Solid-State Battery Race Just Heated Up",
+      "url": "https://www.fool.com/investing/2026/03/16/massive-news-quantumscapes-solid-state-battery-rac/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "4B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:42:20.994Z"
+  },
+  "RGTI": {
+    "ticker": "RGTI",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 14.68, EMA200: 19.11, BX: 6.19)",
+    "sentiment": {
+      "text": "Prediction: This Will Be Rigetti Computing's Stock Price in 1 Year",
+      "url": "https://www.fool.com/investing/2026/04/13/prediction-be-rigetti-computing-stock-price-1-year/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "6B / 3S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:42:33.685Z"
+  },
+  "IONQ": {
+    "ticker": "IONQ",
+    "decision": "WATCH",
+    "reason": "Neutral Trend: Below EMA200 (Bearish) | Momentum: Strong Bullish Momentum | Price: 35.76 | EMA200: 41.18 | BX: 8.66",
+    "sentiment": {
+      "text": "Why IonQ Stock Skyrocketed Today",
+      "url": "https://www.fool.com/investing/2026/04/14/why-ionq-stock-skyrocketed-today/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "12B / 5S in last 30 posts"
+    },
+    "fa": {
+      "verdict": "BEARISH (FA)",
+      "summary": "P/S: 77.1 | Growth: 110.1% | CashRatio: 15.5 | Margin: 0%"
+    },
+    "timestamp": "2026-04-15T05:30:10.277Z"
+  },
+  "QBTS": {
+    "ticker": "QBTS",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 14.25, EMA200: 19.61, BX: 0.91)",
+    "sentiment": {
+      "text": "Up 1,460% Since 2024, Is It Too Late to Buy This Quantum Computing Leader?",
+      "url": "https://www.fool.com/investing/2026/04/07/up-1460-since-2024-is-it-too-late-to-buy-this-quan/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "3B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:42:59.465Z"
+  },
+  "OKLO": {
+    "ticker": "OKLO",
+    "decision": "WATCH",
+    "reason": "Neutral (Price: 50.25, EMA200: 72.21, BX: 2.61)",
+    "sentiment": {
+      "text": "Oklo Inc. Reports Soon. Here's Why I'd Buy Before the Number Drops.",
+      "url": "https://www.fool.com/investing/2026/04/12/oklo-inc-reports-soon-heres-why-id-buy-before-the/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "12B / 0S in last 30 posts"
+    },
+    "timestamp": "2026-04-13T13:43:14.784Z"
+  },
+  "AIRO": {
+    "ticker": "AIRO",
+    "decision": "ENTRY (SHORT)",
+    "reason": "Bearish Trend Trend: Below EMA200 (Bearish) | Momentum: Strong Bearish Momentum | Price: 8.08 | EMA200: 15.07 | BX: -14.57",
+    "sentiment": {
+      "text": "U.S. Drone as a Service (Daas) Market Is Poised for Strong Growth In 2026 as Technology Vastly Improves",
+      "url": "https://www.benzinga.com/pressreleases/26/01/n49783645/u-s-drone-as-a-service-daas-market-is-poised-for-strong-growth-in-2026-as-technology-vastly-improv?utm_source=benzinga_taxonomy&utm_medium=rss_feed_free&utm_content=taxonomy_rss&utm_campaign=channel",
+      "publisher": "Benzinga"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "4B / 3S in last 30 posts"
+    },
+    "fa": {
+      "verdict": "BULLISH (FA)",
+      "summary": "P/S: 0.0 | Growth: 88.3% | CashRatio: 3.4 | Margin: 60%"
+    },
+    "timestamp": "2026-04-15T05:32:01.917Z"
+  },
+  "ENPH": {
+    "ticker": "ENPH",
+    "decision": "ENTRY (SHORT)",
+    "reason": "Bearish Trend Trend: Below EMA200 (Bearish) | Momentum: Strong Bearish Momentum | Price: 32.00 | EMA200: 39.07 | BX: -34.49",
+    "sentiment": {
+      "text": "ROSEN, A TOP-RANKED LAW FIRM, Encourages Enphase Energy, Inc. Investors with Losses in Excess of $100K to Secure Counsel Before Important Deadline in Securities Class Action – ENPH",
+      "url": "https://www.globenewswire.com/news-release/2026/04/09/3271391/673/en/ROSEN-A-TOP-RANKED-LAW-FIRM-Encourages-Enphase-Energy-Inc-Investors-with-Losses-in-Excess-of-100K-to-Secure-Counsel-Before-Important-Deadline-in-Securities-Class-Action-ENPH.html",
+      "publisher": "GlobeNewswire Inc."
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "6B / 2S in last 30 posts"
+    },
+    "fa": {
+      "verdict": "BULLISH (FA)",
+      "summary": "P/S: 2.8 | Growth: 329.0% | CashRatio: 2.1 | Margin: 47%"
+    },
+    "timestamp": "2026-04-15T05:33:16.163Z"
+  },
+  "NKE": {
+    "ticker": "NKE",
+    "decision": "ENTRY (SHORT)",
+    "reason": "Bearish Trend Trend: Below EMA200 (Bearish) | Momentum: Strong Bearish Momentum | Price: 44.20 | EMA200: 62.13 | BX: -25.30",
+    "sentiment": {
+      "text": "Rethinking Nike: Is the Iconic Brand Still a Buy Based on its Turnaround Story?",
+      "url": "https://www.fool.com/investing/2026/04/14/rethinking-nike-is-the-iconic-brand-still-a-buy-af/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "19B / 3S in last 30 posts"
+    },
+    "fa": {
+      "verdict": "NEUTRAL",
+      "summary": "P/E: 28.9 | FCF Growth: 294.0% | D/E: 1.6 | Margin: 41%"
+    },
+    "timestamp": "2026-04-15T05:34:30.401Z"
+  },
+  "TOST": {
+    "ticker": "TOST",
+    "decision": "WATCH",
+    "reason": "Neutral Trend: Below EMA200 (Bearish) | Momentum: Strong Bullish Momentum | Price: 27.10 | EMA200: 34.59 | BX: 5.64",
+    "sentiment": {
+      "text": "Got $1,000? 2 Stocks to Buy Now While They're On Sale",
+      "url": "https://www.fool.com/investing/2026/03/31/got-1000-x-stocks-to-buy-now-while-theyre-on-sale/?source=iedfolrf0000001",
+      "publisher": "The Motley Fool"
+    },
+    "stSentiment": {
+      "score": "Bullish",
+      "details": "11B / 0S in last 30 posts"
+    },
+    "fa": {
+      "verdict": "BEARISH (FA)",
+      "summary": "P/E: 45.9 | FCF Growth: 240.7% | D/E: 0.5 | Margin: 26%"
+    },
+    "timestamp": "2026-04-15T05:35:44.676Z"
+  }
+}

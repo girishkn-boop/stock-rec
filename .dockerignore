@@ -1,0 +1,11 @@
+node_modules
+npm-debug.log
+.env
+state.json
+*.log
+.git
+.pm2
+lt_url.txt
+serveo_url.txt
+tunnel_log.txt
+current_tunnel_url.txt

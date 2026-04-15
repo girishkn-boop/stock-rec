@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BX Trader Pro - Cockpit</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <style>
+        :root {
+            --bg: #ffffff;
+            --card-bg: #fdfdfd;
+            --border: #e1e4e8;
+            --text: #1a1a1a;
+            --text-dim: #586069;
+            --accent: #2ea44f;
+            --bullish: #22863a;
+            --bearish: #d73a49;
+            --warning: #b08800;
+            --info: #0366d6;
+        }
+
+        body { 
+            font-family: 'Inter', -apple-system, sans-serif; 
+            background: var(--bg); 
+            color: var(--text); 
+            padding: 20px; 
+            margin: 0;
+            display: grid;
+            grid-template-columns: 1fr 350px;
+            gap: 20px;
+        }
+
+        .main-content { grid-column: 1; }
+        .sidebar { grid-column: 2; }
+
+        .header { 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            margin-bottom: 25px;
+            background: var(--card-bg);
+            padding: 15px 25px;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .controls { display: flex; gap: 10px; align-items: center; }
+
+        button { 
+            background: var(--accent); 
+            color: white; 
+            border: none; 
+            padding: 10px 18px; 
+            border-radius: 6px; 
+            cursor: pointer; 
+            font-weight: 600;
+            transition: background 0.2s;
+        }
+
+        button:hover { opacity: 0.9; }
+        button.secondary { background: var(--info); }
+        button.outline { background: transparent; border: 1px solid var(--border); color: var(--text); }
+
+        .card { 
+            background: var(--card-bg); 
+            padding: 20px; 
+            border-radius: 12px; 
+            margin-bottom: 20px; 
+            border: 1px solid var(--border);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        h1, h2, h3 { margin: 0 0 15px 0; font-weight: 600; }
+        h2 { font-size: 1.1rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.5px; }
+
+        table { width: 100%; border-collapse: collapse; font-size: 13px; }
+        th { text-align: left; background: #f6f8fa; padding: 12px; color: var(--text-dim); font-weight: 600; border-bottom: 2px solid var(--border); }
+        td { padding: 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+
+        .ticker { font-weight: 700; color: #000; font-size: 1.1rem; }
+        .entrylong { color: var(--bullish); font-weight: bold; background: #f0fff4; padding: 2px 4px; border-radius: 4px; }
+        .entryshort { color: var(--bearish); font-weight: bold; background: #ffeef0; padding: 2px 4px; border-radius: 4px; }
+        .watch { color: var(--warning); background: #fffdef; padding: 2px 4px; border-radius: 4px; }
+        
+        /* FA Styles */
+        .fa-bullish { color: var(--bullish); font-weight: bold; background: #f0fff4; padding: 2px 4px; border-radius: 4px; }
+        .fa-bearish { color: var(--bearish); font-weight: bold; background: #ffeef0; padding: 2px 4px; border-radius: 4px; }
+        .fa-neutral { color: var(--text-dim); background: #f6f8fa; padding: 2px 4px; border-radius: 4px; }
+        
+        .sentiment-tag {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            border: 1px solid transparent;
+        }
+        .sent-bullish { background: #dcffe4; color: var(--bullish); border-color: #bef5cb; }
+        .sent-bearish { background: #ffdce0; color: var(--bearish); border-color: #fdaeb7; }
+        .sent-neutral { background: #f6f8fa; color: var(--text-dim); border-color: #e1e4e8; }
+
+        .insight-box { line-height: 1.6; }
+        .signal-detail { color: var(--text-dim); font-size: 11px; margin-top: 4px; border-left: 3px solid #eee; padding-left: 10px; }
+        
+        .news-link { 
+            color: var(--info); 
+            text-decoration: none; 
+            font-size: 12px; 
+            display: block;
+            max-width: 250px;
+            line-height: 1.4;
+            font-weight: 500;
+        }
+        .news-link:hover { text-decoration: underline; }
+        .news-publisher { font-size: 10px; color: var(--text-dim); text-transform: uppercase; margin-bottom: 4px; font-weight: 700; }
+
+        #status { font-size: 12px; color: var(--accent); font-weight: 600; }
+
+        .fa-summary-box {
+            background: #f0f7ff;
+            border: 1px solid #cce5ff;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            font-size: 13px;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+        }
+        .fa-summary-item b { display: block; font-size: 1.1rem; color: var(--info); }
+        .fa-summary-item span { color: var(--text-dim); font-size: 11px; text-transform: uppercase; }
+
+        /* Quick Look Styles */
+        .quick-look-input { display: flex; gap: 8px; margin-bottom: 15px; }
+        .quick-look-input input { 
+            flex: 1; 
+            padding: 10px; 
+            border-radius: 6px; 
+            border: 1px solid var(--border); 
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+        .quick-result { 
+            padding: 15px; 
+            border-radius: 8px; 
+            background: #f8f9fa; 
+            border: 1px solid var(--border);
+            display: none; 
+        }
+
+        .alert-log {
+            font-size: 12px;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        .alert-item {
+            padding: 12px;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+        .alert-item .time { color: var(--text-dim); font-size: 10px; font-weight: 600; }
+    </style>
+</head>
+<body>
+    <div class="main-content">
+        <div class="header">
+            <div class="title-group">
+                <h1>BX Cockpit</h1>
+                <div id="status">System Ready</div>
+            </div>
+            <div class="controls">
+                <button onclick="requestNotifications()" class="outline" id="notif-btn">🔔 Enable Alerts</button>
+                <button onclick="triggerRun()">RUN FULL SCAN</button>
+            </div>
+        </div>
+
+        <div class="fa-summary-box" id="fa-overall-summary">
+            <div class="fa-summary-item"><b id="sum-bullish">0</b><span>Bullish FA</span></div>
+            <div class="fa-summary-item"><b id="sum-bearish">0</b><span>Bearish FA</span></div>
+            <div class="fa-summary-item"><b id="sum-avg-margin">0%</b><span>Avg Gross Margin</span></div>
+            <div class="fa-summary-item"><b id="sum-total">0</b><span>Total Scanned</span></div>
+        </div>
+
+        <div class="card">
+            <h2>Buy-the-dip stocks</h2>
+            <table id="l1">
+                <thead>
+                    <tr>
+                        <th width="8%">Ticker</th>
+                        <th width="12%">Decision</th>
+                        <th width="12%">FA Verdict</th>
+                        <th width="15%">Social Sentiment</th>
+                        <th width="33%">Insights & Signals</th>
+                        <th width="20%">Latest News</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <!-- Manual Quick Look Section -->
+        <div class="card">
+            <h3>Quick Look (Any Ticker)</h3>
+            <div class="quick-look-input">
+                <input type="text" id="ticker-input" placeholder="e.g. NVDA" onkeypress="if(event.key==='Enter') quickLook()">
+                <button onclick="quickLook()">SCAN</button>
+            </div>
+            <div id="quick-result" class="quick-result">
+                <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+                    <b id="qr-ticker" style="font-size: 1.2rem;">--</b>
+                    <span id="qr-decision" style="font-weight: 700;">--</span>
+                </div>
+                <div id="qr-sentiment" style="margin-bottom: 10px;"></div>
+                <div id="qr-fa" style="margin-bottom: 10px; font-size: 12px;"></div>
+                <div id="qr-reason" style="font-size: 12px; line-height: 1.4; color: var(--text-dim);"></div>
+                <hr style="border: 0; border-top: 1px solid var(--border); margin: 10px 0;">
+                <div id="qr-news" style="font-size: 12px;"></div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>Alert History</h3>
+            <div id="alert-log" class="alert-log">
+                <div style="color: var(--text-dim); padding: 10px;">No alerts yet this session...</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const socket = io();
+        
+        function requestNotifications() {
+            Notification.requestPermission().then(permission => {
+                if (permission === "granted") {
+                    document.getElementById('notif-btn').innerText = "🔔 Alerts Active";
+                    document.getElementById('notif-btn').disabled = true;
+                }
+            });
+        }
+
+        function triggerRun() { 
+            socket.emit('manual-run'); 
+            document.getElementById('status').innerText = "Manual scan initiated...";
+        }
+
+        async function quickLook() {
+            const ticker = document.getElementById('ticker-input').value.toUpperCase().trim();
+            if (!ticker) return;
+            
+            const btn = document.querySelector('.quick-look-input button');
+            const resultBox = document.getElementById('quick-result');
+            
+            btn.disabled = true;
+            btn.innerText = "WAIT...";
+            resultBox.style.display = "block";
+            resultBox.style.opacity = "0.5";
+            document.getElementById('qr-ticker').innerText = ticker;
+            document.getElementById('qr-decision').innerText = "Analyzing...";
+
+            socket.emit('quick-scan', ticker);
+        }
+
+        socket.on('quick-scan-result', (s) => {
+            const btn = document.querySelector('.quick-look-input button');
+            const resultBox = document.getElementById('quick-result');
+            
+            btn.disabled = false;
+            btn.innerText = "SCAN";
+            resultBox.style.opacity = "1";
+
+            if (s.error) {
+                document.getElementById('qr-decision').innerText = "Error";
+                document.getElementById('qr-reason').innerText = s.error;
+                return;
+            }
+
+            document.getElementById('qr-ticker').innerText = s.ticker;
+            document.getElementById('qr-decision').innerText = s.decision;
+            document.getElementById('qr-decision').className = s.decision.toLowerCase().replace(/[() ]/g,'');
+            
+            const st = s.stSentiment || { score: 'N/A', details: '' };
+            const sentClass = `sent-${st.score.toLowerCase()}`;
+            document.getElementById('qr-sentiment').innerHTML = `
+                <a href="https://stocktwits.com/symbol/${s.ticker}" target="_blank" class="sentiment-tag ${sentClass}">${st.score}</a>
+                <span style="font-size: 10px; color: var(--text-dim); margin-left: 5px;">${st.details}</span>
+            `;
+
+            const fa = s.fa || { verdict: 'N/A', summary: 'No data' };
+            const faClass = fa.verdict.toLowerCase().replace(/[() ]/g,'');
+            document.getElementById('qr-fa').innerHTML = `
+                <span class="fa-${faClass}">${fa.verdict}</span>
+                <div style="font-size: 10px; color: var(--text-dim); margin-top: 4px;">${fa.summary}</div>
+            `;
+
+            document.getElementById('qr-reason').innerText = s.reason;
+            
+            const newsText = s.sentiment?.text || 'No recent news';
+            const newsUrl = s.sentiment?.url || '#';
+            const newsPub = s.sentiment?.publisher || 'N/A';
+            document.getElementById('qr-news').innerHTML = newsUrl !== '#' 
+                ? `<b>Latest News:</b><br><a href="${newsUrl}" target="_blank" class="news-link">${newsPub}: ${newsText}</a>`
+                : `No recent news found.`;
+        });
+
+        socket.on('progress-update', (data) => {
+            document.getElementById('status').innerText = `Processing: ${data.ticker}...`;
+        });
+
+        socket.on('full-report', (data) => {
+            document.getElementById('status').innerText = "Last Update: " + new Date().toLocaleTimeString();
+            fillTable('l1', data.list1);
+        });
+
+        function fillTable(id, stocks) {
+            const body = document.querySelector(`#${id} tbody`);
+            
+            // Calculate FA Summary metrics
+            let bullishCount = 0;
+            let bearishCount = 0;
+            let totalMargin = 0;
+            let marginCount = 0;
+
+            stocks.forEach(s => {
+                if (s.fa?.verdict === "BULLISH (FA)") bullishCount++;
+                if (s.fa?.verdict === "BEARISH (FA)") bearishCount++;
+                if (s.fa?.summary) {
+                    const match = s.fa.summary.match(/Margin: (\d+)%/);
+                    if (match) {
+                        totalMargin += parseInt(match[1]);
+                        marginCount++;
+                    }
+                }
+            });
+
+            document.getElementById('sum-bullish').innerText = bullishCount;
+            document.getElementById('sum-bearish').innerText = bearishCount;
+            document.getElementById('sum-avg-margin').innerText = marginCount ? Math.round(totalMargin / marginCount) + "%" : "0%";
+            document.getElementById('sum-total').innerText = stocks.length;
+
+            const sorted = stocks.sort((a, b) => {
+                const aEntry = a.decision.includes("ENTRY");
+                const bEntry = b.decision.includes("ENTRY");
+                if (aEntry && !bEntry) return -1;
+                if (!aEntry && bEntry) return 1;
+                return a.ticker.localeCompare(b.ticker);
+            });
+
+            body.innerHTML = sorted.map(s => {
+                const st = s.stSentiment || { score: 'N/A', details: '' };
+                const sentClass = `sent-${st.score.toLowerCase()}`;
+
+                const fa = s.fa || { verdict: 'N/A', summary: 'No data' };
+                const faClass = fa.verdict.toLowerCase().replace(/[() ]/g,'');
+
+                const newsText = s.sentiment?.text || 'No recent news';
+                const newsUrl = s.sentiment?.url || '#';
+                const newsPub = s.sentiment?.publisher || 'N/A';
+                const newsHtml = newsUrl !== '#' 
+                    ? `<td><div class="news-publisher">${newsPub}</div><a href="${newsUrl}" target="_blank" class="news-link">${newsText}</a></td>`
+                    : `<td><div style="color: var(--text-dim); font-size: 12px;">${newsText}</div></td>`;
+
+                return `
+                <tr>
+                    <td class="ticker">${s.ticker}</td>
+                    <td class="${s.decision.toLowerCase().replace(/[() ]/g,'')}"><span>${s.decision}</span></td>
+                    <td class="fa-${faClass}">
+                        <div>${fa.verdict}</div>
+                        <div style="font-size: 10px; color: var(--text-dim); font-weight: 500; margin-top: 4px;">${fa.summary}</div>
+                    </td>
+                    <td>
+                        <a href="https://stocktwits.com/symbol/${s.ticker}" target="_blank" class="sentiment-tag ${sentClass}">${st.score}</a>
+                        <div style="font-size: 10px; color: var(--text-dim); font-weight: 500;">${st.details}</div>
+                    </td>
+                    <td class="insight-box">
+                        <div><b>Reason:</b> ${s.reason.split('|')[0]}</div>
+                        <div class="signal-detail">${s.reason.includes('|') ? s.reason.split('|').slice(1).join(' | ') : ''}</div>
+                    </td>
+                    ${newsHtml}
+                </tr>`}).join('');
+        }
+
+        socket.on('strategy-alert', (a) => {
+            if (Notification.permission === "granted") {
+                new Notification(`STRATEGY FLIP: ${a.ticker}`, { body: `${a.old} ➔ ${a.new}` });
+            }
+            const log = document.getElementById('alert-log');
+            if (log.innerHTML.includes("No alerts yet")) log.innerHTML = '';
+            const item = document.createElement('div');
+            item.className = 'alert-item';
+            item.innerHTML = `
+                <div class="time">${new Date().toLocaleTimeString()}</div>
+                <div><b>${a.ticker}</b> flipped to <span class="${a.new.toLowerCase().replace(/[() ]/g,'')}">${a.new}</span></div>
+            `;
+            log.prepend(item);
+        });
+
+        if (Notification.permission === "granted") {
+            document.getElementById('notif-btn').innerText = "🔔 Alerts Active";
+            document.getElementById('notif-btn').disabled = true;
+        }
+    </script>
+</body>
+</html>

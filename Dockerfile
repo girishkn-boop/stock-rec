@@ -6,7 +6,7 @@ WORKDIR /usr/src/app
 
 # Install app dependencies
 COPY package*.json ./
-RUN npm install --production
+RUN npm config set registry https://registry.npmjs.org/ && npm install --production
 
 # Bundle app source
 COPY . .
